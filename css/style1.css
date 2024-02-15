@@ -1,0 +1,68 @@
+@media screen and (max-width: 1280px) {
+	body {
+		width: 1280px;
+		margin: 0 auto;
+	}
+	.logo {
+		font-size: 64px;
+	}
+	nav ul li a {
+		font-size: 24px;
+	}
+	nav img {
+		display: none;
+	}
+	.afisha-grid {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.afisha .afisha-grid {
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 60px;
+	}
+	.afisha-grid article img {
+		width: 100%;
+	}
+	.skoro .skoro-grid {
+		display: grid;
+		width: 85%;
+		margin: 0 auto;
+	}
+	.skoro-grid article {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+	}
+	.skoro-cont span {
+		display: block;
+	}
+	.skoro-grid article img {
+		width: 70%;
+	}
+	.skoro-grid .skoro-cont {
+		display: grid;
+		gap: 20px;
+		text-align: center;
+	}
+	.akcii-none {
+		display: none;
+	}
+	.akcii-grid article img {
+		width: 500px;
+		height: 240px;
+	}
+	footer {
+		width: 90%;
+		flex-wrap: wrap;
+	}
+	.column1 {
+		width: 100%;
+		text-align: center;
+	}
+	.column1-text {
+		display: flex;
+		gap: 40px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
